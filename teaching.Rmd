@@ -1,0 +1,354 @@
+---
+title: "Teaching Materials"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    toc_depth: 2
+    self_contained: true
+---
+
+
+<!--
+To compile run:
+library(rmarkdown); render("teaching.Rmd")
+To extract the R-code:
+library(knitr); knitr::purl("teaching.Rmd")
+
+HTS_introduction.pdf
+DESeq2.pdf 
+-->
+
+
+
+
+```{r config, results='hide', include=FALSE}
+path <- "http://www-huber.embl.de/users/klaus/EMBO.R"
+
+```
+
+## Overview 
+    
+This webpage contains teaching materials I have been using for courses. Each
+topic is suitable for 3~6 hrs of an intensive course. The labs consist of
+.Rnw or .Rmd files which require the installation of several packages. The necessary
+packages for most of them can be  conveniently installed running the following script within R:
+
+```{r , eval=FALSE}
+## script location
+script <- "http://www-huber.embl.de/users/klaus/EMBO.R"
+## installation 
+source(script)
+```
+
+However, the necessary packages are also indicated at the beginning of each lab.
+The acknowledgments contain some references to the material used, which 
+often represent links to additional documents suitable 
+for further in-depth study of the topic.
+
+Most of the labs have been built using
+[knitr](http://yihui.name/knitr/) 
+and [BiocStyle](http://bioconductor.org/packages/release/bioc/html/BiocStyle.html)
+in connection with Sweave-like .Rnw documents.
+
+## Introduction to R
+
+This material gives a concise introduction to R. 
+
+### Acknowledgements
+Large parts of this material are based on the 
+[contributed documentation](http://cran.r-project.org/other-docs.html)
+on CRAN. Notably,
+["Applied Statistics for Bioinformatics Using R"](http://cran.r-project.org/doc/contrib/Krijnen-IntroBioInfStatistics.pdf)
+,
+["IcebreakeR"](http://cran.r-project.org/doc/contrib/Robinson-icebreaker.pdf)
+and
+["A (very) short Introduction to R"](http://cran.r-project.org/doc/contrib/Torfs+Brauer-Short-R-Intro.pdf)
+as well as the 
+["Best first R tutorial"](https://www.nceas.ucsb.edu/files/scicomp/Dloads/RProgramming/BestFirstRTutorial.pdf)
+and introductory material from [Laurent Gatto](https://github.com/lgatto/TeachingMaterial).
+
+
+An in-depth resource for the details of R-programming is
+[Advanced R](http://adv-r.had.co.nz/).
+
+### Files
+
+--------------------------------------------------------------------------------  
+Type                Link 
+------      ------------------
+Slides      [Slides](http://www.tinyurl.com/BK-XT85/Teaching/intro-R.pdf) 
+
+Lab         [Lab pdf](http://www.tinyurl.com/BK-XT85/Teaching/R-lab.pdf)                             
+
+R script    [R--script](http://www.tinyurl.com/BK-XT85/Teaching/R-lab.R) 
+
+Rnw         [.Rnw file](http://www.tinyurl.com/BK-XT85/Teaching/R-lab.Rnw)    
+--------------------------------------------------------------------------------                                                                               
+
+## Data handling with R
+
+This material gives an introduction to data handling and data reshaping
+with R, including a lot of data handling
+techniques using the [dplyr](http://cran.r-project.org/package=dplyr) package
+and reshaping using the [tidyr](http://cran.r-project.org/package=tidyr) and
+[reshape2](http://cran.r-project.org/package=reshape2) packages. We also introduce
+chaining with the [magrittr](http://cran.r-project.org/package=magrittr) package.
+
+### Files
+
+--------------------------------------------------------------------------------  
+Type                Link 
+------      ------------------
+Slides      [Slides](http://www.tinyurl.com/BK-XT85/Teaching/DataHandling.pdf) 
+
+Lab         [Lab pdf](http://www.tinyurl.com/BK-XT85/Teaching/Data-Handling-lab.pdf)                             
+
+R script    [R--script](http://www.tinyurl.com/BK-XT85/Teaching/Data-Handling-lab.R) 
+
+Rnw         [.Rnw file](http://www.tinyurl.com/BK-XT85/Teaching/Data-Handling-lab.Rnw)    
+--------------------------------------------------------------------------------   
+
+### Acknowledgements
+The material on [dplyr](http://cran.r-project.org/package=dplyr) is to some extend
+based on tutorials by [Kevin Markham](http://rpubs.com/justmarkham/dplyr-tutorial)
+and [Dirk Schuhmacher](http://www.dirk-schumacher.net/). The illustration of
+the dplyr verbs is adapted from a presentation of H. Wickham.
+
+Example data were provided by Michele Christovao, Elisabeth Zielonka and Ina Kalinina.
+
+
+
+## Exploratory data analysis and ggplot2
+
+Typical summary statistics for location and scale as well as common diagnostic 
+plots are presented. The plots are given both in base R as well as using
+[ggplot2](http://cran.r-project.org/package=dplyr) commands.
+
+
+### Acknowledgements
+
+Large parts of this material are based on the plots used in
+["Applied Statistics for Bioinformatics Using R"](http://cran.r-project.org/doc/contrib/Krijnen-IntroBioInfStatistics.pdf).
+
+Lars Velten contributed the Protein exercise using ggplot. (Note the data
+used in the protein-example has  been simulated and does not correspond to any real experimental data).
+
+The ggplot explanations have been inspired by the
+[ggplot2 book](http://www.springer.com/statistics/computational+statistics/book/978-0-387-98140-6)
+as well as the 
+[ggplot2 intro](http://jofrhwld.github.io/avml2012/) 
+by [Josef Fruehwald](http://jofrhwld.github.io/).
+
+[Wolfgang Huber](http://www.embl.de/research/units/genome_biology/huber/members/index.php?s_personId=CP-60002619)
+provided nice thoughts & slides  on color usage for graphics.
+
+### Files
+
+--------------------------------------------------------------------------------  
+Type                Link 
+------      ------------------
+Slides      [Slides](http://www.tinyurl.com/BK-XT85/Teaching/EDA.pdf) 
+
+Lab         [Lab pdf](http://www.tinyurl.com/BK-XT85/Teaching/EDA-lab.pdf)                             
+
+R script    [R--script](http://www.tinyurl.com/BK-XT85/Teaching/EDA-lab.R) 
+
+Rnw         [.Rnw file](http://www.tinyurl.com/BK-XT85/Teaching/EDA-lab.Rnw)    
+--------------------------------------------------------------------------------                                                                               
+
+
+## Statistical methods for Bioinformatics 
+
+This is a very concise introduction to important statistical methods in bioinformatics:
+dimensionality reduction, clustering and regression.
+
+These techniques are illustrated in the context of the analysis of (single cell)
+RNA--Seq data.
+
+### Acknowledgements
+
+The  material on statistical distributions is based on
+["Applied Statistics for Bioinformatics Using R"](http://cran.r-project.org/doc/contrib/Krijnen-IntroBioInfStatistics.pdf). 
+
+I adapt the usage of the bodyfat data as an example data set for multivariate models
+such as regression and PCA from
+Michael Lavine's [Introduction to Statistical Thought](http://people.math.umass.edu/~lavine/Book/book.html), which is an excellent introductory statistics textbook in itself.
+
+The slides are partially based on material by 
+[Wolfgang Huber](http://www.embl.de/research/units/genome_biology/huber/members/index.php?s_personId=CP-60002619) and
+[John Marioni](http://www.ebi.ac.uk/about/people/john-marioni) (EMBL-EBI).
+
+### Files
+
+--------------------------------------------------------------------------------------  
+Type                Link 
+------      ------------------
+Slides      [Slides](http://www.tinyurl.com/BK-XT85/Teaching/Regression_PCA_MDS_RNASeq.pdf) 
+
+Lab         [Lab pdf](http://www.tinyurl.com/BK-XT85/Teaching/methods-lab.pdf)                             
+
+R script    [R--script](http://www.tinyurl.com/BK-XT85/Teaching/methods-lab.R) 
+
+Rnw         [.Rnw file](http://www.tinyurl.com/BK-XT85/Teaching/methods-lab.Rnw) 
+-----------------------------------------------------------------------------------
+
+
+## Hypothesis Testing 
+
+This is an introduction to hypothesis testing, including multiple testing
+as well as advanced topics such as regularized t-statistics, independent
+filtering and empirical null estimation.
+
+
+### Acknowledgements
+
+The  material on the basic tests is based on
+["Applied Statistics for Bioinformatics Using R"](http://cran.r-project.org/doc/contrib/Krijnen-IntroBioInfStatistics.pdf). 
+
+Almost all of the slides are by [Wolfgang Huber](http://www.embl.de/research/units/genome_biology/huber/members/index.php?s_personId=CP-60002619).
+
+The material on tests for categorical data is mainly based on the book 
+[Introductory Statistics with R](http://www.springer.com/mathematics/probability/book/978-0-387-79053-4), which is also great for learning R and statistics at the same time. 
+
+
+### Files
+
+--------------------------------------------------------------------------------------  
+Type                Link 
+------      ------------------
+Slides      [Slides](http://www.tinyurl.com/BK-XT85/Teaching/testing_Intro.pdf) 
+
+Lab         [Lab pdf](http://www.tinyurl.com/BK-XT85/Teaching/Testing-lab.pdf)                             
+
+R script    [R--script](http://www.tinyurl.com/BK-XT85/Teaching/Testing-lab.R) 
+
+Rnw         [.Rnw file](http://www.tinyurl.com/BK-XT85/Teaching/Testing-lab.Rnw)    
+-----------------------------------------------------------------------------------
+
+
+## Hypothesis Testing -- concise
+
+This is a concise introduction to hypothesis testing, including only the most 
+widely used tests but also explaining the idea of permutation tests, since these
+can be very usfeul in pratctice.
+
+The material also covers multiple testing
+as well as advanced topics such as regularized t-statistics, independent
+filtering and empirical null estimation.
+
+
+### Acknowledgements
+
+Ther permutation test explainations were inspired by [Tim Hesterberg's](http://www.timhesterberg.net/)
+[excellent review on resampling](http://www.timhesterberg.net/bootstrap#TOC-What-Teachers-Should-Know-about-the-Bootstrap:-Resampling-in-the-Undergraduate-Statistics-Curriculum) for undergraduates.
+
+
+### Files
+
+--------------------------------------------------------------------------------------  
+Type                Link 
+------      ------------------
+Slides      [Slides](http://www.tinyurl.com/BK-XT85/Teaching/testing_Intro.pdf) 
+
+Lab         [Lab pdf](http://www.tinyurl.com/BK-XT85/Teaching/testing-lab-concise.pdf)                             
+
+R script    [R--script](http://www.tinyurl.com/BK-XT85/Teaching/testing-lab-concise.R) 
+
+Rnw         [.Rnw file](http://www.tinyurl.com/BK-XT85/Teaching/testing-lab-concise.Rnw)    
+-----------------------------------------------------------------------------------
+
+
+
+## Differential expression analysis of RNA-Seq data with DESeq2
+
+This material introduces a complete workflow for DE analysis of RNA--Seq data
+starting from the raw FASTQ files. It performs a re-analysis of the 
+RNA-Seq data analyzed in 
+Uslu et. al. -- 
+[Long-range enhancers regulating Myc expression are required for  normal facial morphogenesis](http://dx.doi.org/10.1038/ng.2971), 2014
+
+
+### Acknowledgements
+
+The material is largely based on the documentation of the [DESeq2](http://bioconductor.org/packages/release/bioc/html/DESeq2.html)
+package on Bioconductor by [Mike Love](http://www.mike-love.net/), 
+[Simon Anders](http://www.embl.de/research/units/genome_biology/huber/members/index.php?s_personId=CP-60002977)
+and [Wolfgang Huber](http://www.embl.de/research/units/genome_biology/huber/members/index.php?s_personId=CP-60002619).
+
+The first part of the lab, from FASTQ files to the count-table follows
+Anders et. al. 
+- [Count-based differential expression analysis of RNA sequencing data using R and Bioconductor](http://dx.doi.org/10.1038/nprot.2013.099), 2013 closely.
+
+[Simon Anders](http://www.embl.de/research/units/genome_biology/huber/members/index.php?s_personId=CP-60002977) also provided the slides.
+
+-----------------------------------------------------------------------------------  
+Type                Link 
+------      ------------------
+Slides      [Slides DESeq2 - Wolfgang Huber](http://www.tinyurl.com/BK-XT85/DESeq2-Wolfgang.pdf)
+
+Slides      [Slides DESeq2](http://www.tinyurl.com/BK-XT85/Teaching/DESeq2.pdf)
+
+Slides      [Slides HT Sequencing](http://www.tinyurl.com/BK-XT85/Teaching/HTS_introduction.pdf) 
+
+Lab         [Lab pdf](http://www.tinyurl.com/BK-XT85/Teaching/DESeq2-Analysis.pdf)                             
+
+R script    [R--script](http://www.tinyurl.com/BK-XT85/Teaching/DESeq2-Analysis.R) 
+
+Rnw         [.Rnw file](http://www.tinyurl.com/BK-XT85/Teaching/DESeq2-Analysis.Rnw)    
+------------------------------------------------------------------------------------
+
+
+## Differential expression analysis of RNA-Seq  -- Predoc Course 2014
+
+This material introduces a  workflow for DE analysis of RNA-Seq data
+starting from the gene count table. It is similar to the worklflow above and
+performs a re--analysis of the 
+RNA-Seq data analyzed in 
+Uslu et. al. -- 
+[Long-range enhancers regulating Myc expression are required for  normal facial morphogenesis](http://dx.doi.org/10.1038/ng.2971), 2014
+
+It has been created for the DNA/RNA module of the [2014 EMBL predoc course](http://www.embl.de/predoccourse/2014/modules/DNA_RNA_Biology/index.html) and uses html instead of LaTeX.
+
+### Acknowledgements
+
+The material is largely based on the documentation of the [DESeq2](http://bioconductor.org/packages/release/bioc/html/DESeq2.html)
+package and the [rnaseqGene](http://bioconductor.org/help/workflows/rnaseqGene/) workflow on Bioconductor by [Mike Love](http://www.mike-love.net/), 
+[Simon Anders](http://www.embl.de/research/units/genome_biology/huber/members/index.php?s_personId=CP-60002977)
+and [Wolfgang Huber](http://www.embl.de/research/units/genome_biology/huber/members/index.php?s_personId=CP-60002619). 
+
+
+-----------------------------------------------------------------------------------  
+Type                Link 
+------      ------------------
+Lab         [Lab html](http://www.tinyurl.com/BK-XT85/Teaching/DESeq2Predoc2014.html)                             
+
+R script    [R--script](http://www.tinyurl.com/BK-XT85/Teaching/DESeq2Predoc2014.R) 
+
+Rmd         [.Rmd file](http://www.tinyurl.com/BK-XT85/Teaching/DESeq2Predoc2014.Rmd)    
+------------------------------------------------------------------------------------
+
+## Machine Learning  -- Predoc Course 2014
+
+This is an introduction to Machine Learning, it is still work in progress.
+
+
+### Acknowledgements
+This is heavily based on material form S. Arora ([Bioc Seattle, Oct 14](http://bioconductor.org/help/course-materials/2014/SeattleOct2014/)) and VJ Carey ([Brixen 2011](http://bioconductor.org/packages/release/bioc/vignettes/MLInterfaces/inst/doc/MLprac2_2.pdf)).
+
+-----------------------------------------------------------------------------------  
+Type                Link 
+------      ------------------
+Lab         [Lab html](http://www.tinyurl.com/BK-XT85/Teaching/ML-lab.html)                             
+
+R script    [R--script](http://www.tinyurl.com/BK-XT85/Teaching/ML-lab.R) 
+
+Rmd         [.Rmd file](http://www.tinyurl.com/BK-XT85/Teaching/ML-lab.Rmd)    
+------------------------------------------------------------------------------------
+
+
+
+
+<!--
+ffff
+-->

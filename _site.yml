@@ -1,0 +1,17 @@
+name: "EMBL_CSDA_Site"
+output_dir: "_EMBL_CSDA_BK"
+navbar:
+  title: "Bernd Klaus @ EMBL"
+  type: default
+  left:
+    - text: "Publications"
+      href: publications.html
+    - text: "Teaching Materials"
+      href: teaching.html
+    - text: "ML book club"
+      href: MLclub.html
+output:
+  html_document:
+    theme: paper
+    highlight: tango
+    css: Wolfgang.css

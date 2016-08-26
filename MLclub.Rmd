@@ -1,0 +1,103 @@
+---
+title: "CSDA -  Machine Learning Book Club"
+output:
+  html_document:
+    toc: true
+    toc_depth: 2
+    self_contained: true
+---
+
+
+<!--
+To compile run:
+library(rmarkdown); render("MLclub.Rmd")
+To extract the R-code:
+library(knitr); knitr::purl("MLclub.Rmd")
+
+
+-->
+
+
+
+<p>
+<div style="visibility: hidden"> tbd.XX My Hidden Text </div>
+<a href="http://www-bcf.usc.edu/~gareth/ISL/"><img src="http://normaldeviate.files.wordpress.com/2013/02/terminator.png" width="300" height="600" style="vertical-align:bottom"></a>
+
+</p>
+
+    
+    
+In this book club we  go beyond the classical statistical methods for modelling, 
+such as linear regression.
+As computing power has increased over the last 20 years many new, highly computational, 
+"Statistical Learning", methods have been developed. 
+
+
+In particular the last decade has seen a significant expansion of the number of possible approaches. 
+This book club will provide a very applied overview to such modern  methods as 
+Generalized Additive Models, Decision Trees, Boosting, Bagging and Support Vector Machines 
+as well as more classical linear approaches such as Logistic Regression, Linear Discriminant Analysis, 
+K-Means Clustering and Nearest Neighbors.
+
+We will also introduce \R{} code and possibly discuss some of the exercises in the book.
+
+The current plan is to meet **bi-weekly** starting on **Thursday, Nov. 6th 2014** 
+in **ATC B11**. We will try to cover half a chapter per session (except for chapter 2)
+and possibly add  sessions on biological data analysis problems.
+
+ **Please register [here](https://bio-it.embl.de/statistical-data-analysis/book-club) to receive the announcements**
+(Internal access only)
+
+## About the book / slides / videos
+
+We will discuss 
+
+ * [An Introduction to Statistical Learning with Applications in R](http://www.statlearning.com)
+,which is the more accessible little brother of a modern classic in the machine learning literature called
+[Elements of Statistical Learning](http://statweb.stanford.edu/~tibs/ElemStatLearn/)
+and can be downloaded for free. A first set of lectures and slides is [here](http://www.alsharif.info/#!iom530/c21o7) 
+
+* Additionally, there are  [Lecture slides and videos](http://www.dataschool.io/15-hours-of-expert-machine-learning-videos/)
+  from a recent course taught by two of the authors available. Additionally, there are solutions to the
+  exercises on [github](https://github.com/asadoughi/stat-learning).
+
+## Current Schedule
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------    
+Date        Time        Room              Chapter                  Topics 
+-------    --------     ------          ------------------      ------------------------------------------------------------------------------------------------------------
+6.11.14     17:00       B11                Chapter  2            Intro to Stat. Learning, Prediction Accuracy  vs Model Interpretability, Bias-Variance Trade-Off  
+
+**2.12.14** 17:00       **A23**            Chapter  3 I         Linear Regression till 3.3.1 "Qualitative Predictors"
+
+11.12.14      17:00       A23                Chapter  3 II               Rest of chapter 3,
+
+08.01.15       17:00       B11                 Chapter  3 III           R-lab on regression of chapter 3, [Link to material](http://www-huber.embl.de/users/klaus/RegressionLab.zip)
+
+22.01.15       17:00       B11               Chapter  4 I                 Logistic Regression, Linear Discriminant analysis (up to 4.4.4)
+
+05.02.15     16:00       A23                 Chapter  4 II           Logistic regression, microarray classification examples
+
+19.02.15     16:00       B11                 Chapter  5 I        Cross Validation and Bootstrap, see [Tim Hesterberg's nice review on resampling](http://arxiv.org/abs/1411.5279)
+
+05.03.15     16:00       B11                 Chapter  5 II         Lab CV, feature selection using CV and caveats, [Link to material](http://www-huber.embl.de/users/klaus/CVLab.zip), [paper on selection bias](http://www.dx.doi.org/10.1073/pnas.102102699)
+
+26.03.15     16:00       A23                 Chapter  6 I          Regularization: Subset regression, ridge and lasso penalties
+                                                                   --- [paper on p--values for the lasso](http://arxiv.org/abs/1408.4026)
+                                                                  
+16.04.15     16:00       A23                 Chapter  6 II          Lasso and feature selection: [application to QTL mapping](http://www-huber.embl.de/users/klaus/HigDimRegressionLab.zip)
+
+07.05.15     16:00       A23                 Chapter  7 I          Splines and local regression
+
+21.05.15     16:00       B11                 Chapter  7 II        Non--linear / smoothing methods: [Lab with examples from RNA-Seq and HiC](http://www-huber.embl.de/users/klaus/NonLinearLab.html)
+
+09.02.16     **16:15**       B11                 Chapter  8 / 9       Introduction to supervised learning with trees, random forests and SVMs. For additional material, see the [caret](http://topepo.github.io/caret) package and accompanying [book](http://appliedpredictivemodeling.com/) as well [a recent evaluation of classifiers](http://jmlr.csail.mit.edu/papers/volume15/delgado14a/delgado14a.pdf) and of course DJ Hands classical paper on the [illusion of progress](https://projecteuclid.org/euclid.ss/1149600839) in classifier technology.
+
+
+18.02.16     16:00       B11                 Chapter  8 / 9       Case studies on classification with metagenomics data with  [Georg Zeller](http://www.embl.de/research/units/scb/zeller/members/index.php?s_personId=CP-60011442), see e.g. [this paper](http://dx.doi.org/10.15252/msb.20145645).
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+<!--
+ffff
+ [HiCData (50Mb)](http://www-huber.embl.de/users/klaus/inputHiC.RData)
+-->

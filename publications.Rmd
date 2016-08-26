@@ -1,0 +1,145 @@
+---
+title: "Bernd Klaus - Publications and Software"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    toc_depth: 3
+---
+
+
+<!--
+
+<p>
+<a href="http://www.embl.de"><img src="klaus.jpeg" width=100 align="left"></a>
+<a href="http://www.embl.de"><img src="embl.jpg" width=300 align="right"></a>
+</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+-->
+
+
+
+## Publications
+
+###  2016 ---
+
+-  **Statistical relevance—relevant statistics, part II**
+--- **Bernd Klaus**, 2016 --- [EMBO J](http://dx.doi.org/10.15252/embj.201694659) 
+
+- **An end to end workflow for differential gene expression using Affymetrix microarrays**  --- **Bernd Klaus** , 2016 --- [F1000Research 2016, 5:1384](http://dx.doi.org/10.12688/f1000research.8967.1) 
+
+- **Data-driven hypothesis weighting increases detection power in genome-scale multiple testing**  --- Nikolaos Ignatiadis, **Bernd Klaus**, Judith Zaugg, Wolfgang Huber, 2016 --- [Nature Methods](http://dx.doi.org/10.1038/nmeth.3885) --- earlier [BioRxiv Preprint](http://dx.doi.org/10.1101/034330) --- Software package [IHW on Github](https://github.com/nignatiadis/IHW) and [Bioconductor](http://bioconductor.org/packages/IHW).
+
+
+- **DChIPRep, an R/Bioconductor package for differential enrichment analysis in chromatin studies**  --- Christophe D Chabbert, Lars M Steinmetz, **Bernd Klaus**, 2016  --- [PeerJ](https://peerj.com/articles/1981/) --- Software package [DChIPRep on Bioconductor](http://bioconductor.org/packages/DChIPRep).
+
+
+-  **Landscape and dynamics of transcription initiation in the malaria parasite Plasmodium falciparum**
+--- Sophie Adjalley, Christophe Chabbert, **Bernd Klaus**, Vicent Pelechano, Lars Steinmetz, 2016.--- [Cell Reports, Volume 14, Issue 10, p2463–2475](http://dx.doi.org/10.1016/j.celrep.2016.02.025) --- earlier [BioRxiv Preprint](http://dx.doi.org/10.1101/024356)   --- [EMBL newspiece](http://news.embl.de/science/1602-malaria/).
+
+- **CYP3A5 mediates basal and acquired therapy resistance in different subtypes of pancreatic ductal adenocarcinoma**  --- Elisa M Noll,  Christian Eisen,  Albrecht Stenzinger,  Elisa Espinet,  Alexander Muckenhuber,  Corinna Klein,  Vanessa Vogel,  **Bernd Klaus**,  Wiebke Nadler,  Christoph Rösli,  Christian Lutz,  Michael Kulke,  Jan Engelhardt,  Franziska M Zickgraf,  Octavio Espinosa,  Matthias Schlesner,  Xiaoqi Jiang,  Annette Kopp-Schneider,  Peter Neuhaus,  Marcus Bahra,  Bruno V Sinn,  Roland Eils,  Nathalia A Giese,  Thilo Hackert,  Oliver Strobel,  Jens Werner,  Markus W Büchler,  Wilko Weichert,  Andreas Trumpp  & Martin R Sprick, 2016  --- [Nature Medicine, 22, 278–287](https://dx.doi.org/10.1038/nm.4038).
+
+###  2015 
+
+
+-  **Statistical relevance—relevant statistics, part I**
+--- **Bernd Klaus**, 2015 --- [EMBO J (2015) 34, 2727-2730](http://dx.doi.org/10.15252/embj.201592958) 
+
+
+-  **A high-throughput ChIP Seq for large-scale chromatin studies**
+--- Christophe D Chabbert, Sophie H Adjalley, **Bernd Klaus**, Emilie S Fritsch, Ishaan Gupta, Vicent Pelechano, Lars M Steinmetz, 2015.--- [Mol Syst Biol.; 11(1):777](http://www.dx.doi.org/10.15252/msb.20145776) --- [EMBL newspiece](http://news.embl.de/science/1501_barcoding-epigenetics/)
+
+###  2014 
+
+
+- **A Genome-Wide Map of Mitochondrial DNA Recombination in Yeast**
+--- Fritsch, E.S., Chabbert, C.D., **Klaus, B**. & Steinmetz, L.M.,
+2014  --- [Genetics](http://www.dx.doi.org/10.1534/genetics.114.166637) --- also
+[issue highlight](http://www.genetics.org/content/198/2/NP) in Genetics 10/2014
+
+- **Neural lineage induction reveals multi-scale dynamics of 3D chromatin organization**
+ --- Aleksandra Pekowska, **Bernd Klaus**, Felix Alexander Klein, Simon Anders, Malgorzata Oles, Lars Michael Steinmetz, Paul Bertone, Wolfgang Huber, 2014. --- [BioRxiv Preprint](http://biorxiv.org/content/early/2014/04/11/004168)
+
+-  **Alternative polyadenylation diversifies post-transcriptional regulation by selective RNA-protein interactions**
+--- Gupta, I., Clauder-Munster, S., **Klaus, B**., Jarvelin, A.I., Aiyar, R.S., Benes, V., Wilkening, S., Huber, W., Pelechano, V. & Steinmetz, L.M., 2014.--- [Mol Syst Biol. 2014; 10(2):719](http://www.dx.doi.org/10.1002/msb.135068) --- [Research highlight in Nature Reviews Genetics](http://www.dx.doi.org/doi:10.1038/nrg3710)
+
+###  2009 --- 2013
+
+-  **Effect size estimation and misclassification rate based variable selection in linear discriminant analysis**
+--- **B. Klaus**, 2013 --- [Journal of Data Science,v.11, no.3, p.559-573](http://www.jds-online.com/volume-11-number-3-july-2013) --- [arXiv:1205.6653](http://arxiv.org/abs/1205.6653)
+
+- **Experimentally induced hyperchloremic and dl-lactic acidosis in calves: An attempt to study the effects of oral rehydration on acid-base status** ---  L. Schwedhelm, D. Kirchner, **B. Klaus**, L. Bachmann,  2013 --- [Journal of Dairy Science](http://dx.doi.org/10.3168/jds.2012-6077)
+
+
+- **False Discovery Rates, Higher Criticism and Related Methods in High-Dimensional Multiple Testing** ---
+**B. Klaus**, 2013 --- [PhD thesis](http://nbn-resolving.de/urn:nbn:de:bsz:15-qucosa-102676) --- 
+[University of Leipzig](http://www.fmi.uni-leipzig.de/cms/en/forschung/promotionen.html)
+
+- **Signal identification for rare and weak features: higher criticism 
+or false discovery rates?** --- **B. Klaus** and K. Strimmer, 2013 ---
+[Biostatistics](http://biostatistics.oxfordjournals.org/content/14/1/129)
+
+- **Learning false discovery rates by fitting sigmoidal threshold functions** ---
+**B. Klaus** and K. Strimmer. 2011 --- [Journal de la Soci&eacute;t&eacute;  Fran&ccedil;aise de Statistique](http://journal-sfds.fr/index.php/J-SFdS/issue/view/9) --- [arXiv:1104.5414](http://arxiv.org/abs/1104.5414)
+
+
+- **Thresholding methods for feature selection in genomics: higher criticism versus false non-discovery rates** ---
+**B. Klaus** and K. Strimmer. 2010 ---
+Proceedings of the [7th International Workshop on Computational Systems  Biology](http://www.cs.tut.fi/wcsb10/), WCSB 2010
+(June 16-18, 2010, Luxembourg, Luxembourg) --- [reprint](http://strimmerlab.org/publications/conferences/hc-comparison2010.pdf)
+
+
+- **Ueber eine mit dem Stieltjesschen Potenzmomentenproblem im Zusammenhang stehende Klasse holomorpher Matrixfunktionen**. (On a class of [holomorphic](http://en.wikipedia.org/wiki/Holomorphic_function) matrix---valued functions and
+their connection to the [Stieltjes](http://en.wikipedia.org/wiki/Thomas_Joannes_Stieltjes) [moment problem](http://en.wikipedia.org/wiki/Moment_problem), in German) [pdf](http://www-huber.embl.de/users/klaus/Diplomarbeit_Bernd_Klaus.pdf), Diploma thesis (equivalent to M. Sc.), [Institute  of Mathematics](http://www.math.uni-leipzig.de/cms/en/startseite/), [University of Leipzig](http://www.zv.uni-leipzig.de/en/), 2009
+
+
+## Software
+    
+* Script files related to my PhD thesis can be downloaded [here](http://www-huber.embl.de/users/klaus/software/PhD-BK-Soft.zip).
+
+* Script files implementing the effect sizes variable selection methods presented in 
+the article "Effect Size Estimation and Misclassification Rate Based Variable 
+Selection in Linear Discriminant Analysis" can be downloaded  [here](http://www-huber.embl.de/users/klaus/software/LDA-Effect.zip).
+
+
+### DChIPRep
+
+The  [DChIPRep](http://bioconductor.org/packages/DChIPRep/) DChIPRep 
+implements a methodology to assess differences between chromatin modification profiles in replicated ChIP-Seq studies as described in [Chabbert et. al.](http://www.dx.doi.org/10.15252/msb.20145776) and is available from
+[Bioconductor](http://bioconductor.org/packages/DChIPRep/).
+
+### ConcaveFDR
+
+ConcaveFDR is a an FDR estimation package, similar in spirit to [fdrtool](http://strimmerlab.org/software/fdrtool/index.html)
+and [locfdr](http://cran.r-project.org/package=locfdr). It will be submitted to Bioconductor at some point and extensive 
+documentation will be become available.
+
+- The R package (alpha status!) [ConcaveFDR](http://www-huber.embl.de/users/klaus/ConcaveFDR_0.0.1.tar.gz) 
+can be downloaded by clicking on the link. 
+
+You can download some introductory [slides from MAS Toulouse 2014](http://www-huber.embl.de/users/klaus/270814-tolouse-MAS-FDR-Testing-klaus.pdf). Most of the  methodology is also treated in my [PhD thesis](http://nbn-resolving.de/urn:nbn:de:bsz:15-qucosa-102676).
+
+You can install it via   
+  
+```{r , eval=FALSE}
+  R CMD INSTALL ConcaveFDR_0.0.1.tar.gz 
+```
+
+in the terminal.
+
+#### Simulation Studies and a re-analysis of exon usage conservation
+
+There are two simulation studies and one real data analysis of exon usage conservation.
+For the background on the exon usage analysis see the original paper: [Reyes et. al. --- Drift and conservation of differential exon usage across tissues in primate species](http://dx.doi.org/10.1073/pnas.1307202110)
+
+  * Simulation Study with  normal mixture models: [Rmd](http://www-huber.embl.de/users/klaus/SimsZvals.Rmd), [html](http://www-huber.embl.de/users/klaus/SimsZvals.html)
+  
+  * Simulation Study with  the half normal decay model: [Rmd](http://www-huber.embl.de/users/klaus/SimsHND-Model.Rmd), [html](http://www-huber.embl.de/users/klaus/SimsHND-Model.html)
+    
+  * Exon Usage Analysis: [Rmd](http://www-huber.embl.de/users/klaus/AnalysisAlejandro.Rmd), [html](http://www-huber.embl.de/users/klaus/AnalysisAlejandro.html)
+

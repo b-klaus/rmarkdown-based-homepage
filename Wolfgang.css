@@ -1,0 +1,26 @@
+body { 
+  padding-top: 50px; padding-left: 5%; padding-right: 5%; padding-bottom: 20px;
+  font-size: 11pt;
+  font-family: helvetica, "trebuchet ms", sans-serif;
+  background-color: #ffffff;
+}
+
+p {
+  text-align: justified;
+}
+
+h1 {
+  color: #039;
+  text-align: left
+}
+
+h2 {
+  color: #077;
+  border-bottom: dashed 1px #077;
+  text-align: left
+}
+
+emph {
+  font-weight: bold;
+}
+
