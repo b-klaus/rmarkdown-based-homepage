@@ -51,6 +51,34 @@ Most of the labs have been built using
 and [BiocStyle](http://bioconductor.org/packages/release/bioc/html/BiocStyle.html)
 in connection with Sweave-like .Rnw documents.
 
+
+## Licencing -- MIT licence
+
+The material on this page is licensed under a MIT licence, the full text of 
+which you can find [here](https://raw.githubusercontent.com/b-klaus/TeachingMaterial/master/LICENSE).
+It basically means, you can do anything you like with the software and the associated
+materials.
+
+## Introduction to R using the tidyverse
+
+This lab gives an introduction to R using many packages from the [tidyverse](http://tidyverse.org/).
+You can find its git repository [here](https://git.embl.de/klaus/tidyverse_R_intro).
+
+### Files
+
+--------------------------------------------------------------------------------  
+Type                Link 
+------      ------------------
+Slides      [Slides](http://www.tinyurl.com/BK-XT85/Teaching/Slides_tidyverse_R_intro.html) 
+
+Lab         [Lab pdf](https://git.embl.de/klaus/tidyverse_R_intro/raw/master/R-lab.pdf)                     
+
+R script    [R--script](https://git.embl.de/klaus/tidyverse_R_intro/raw/master/R-lab.R) 
+
+Rmd         [.Rmd file](https://git.embl.de/klaus/tidyverse_R_intro/raw/master/R-lab.Rmd)    
+--------------------------------------------------------------------------------                                
+
+
 ## Introduction to R
 
 This material gives a concise introduction to R. 
@@ -85,6 +113,25 @@ R script    [R--script](http://www.tinyurl.com/BK-XT85/Teaching/R-lab.R)
 
 Rnw         [.Rnw file](http://www.tinyurl.com/BK-XT85/Teaching/R-lab.Rnw)    
 --------------------------------------------------------------------------------                                                                               
+
+## Data handling and graphics with R using the tidyverse
+
+This labs introduces essential data handling techniques and graphics in R.
+You can find its git repository [here](https://git.embl.de/klaus/graphics_and_data_handling).
+
+### Files
+
+--------------------------------------------------------------------------------  
+Type                Link 
+------      ------------------
+Slides      [Slides](http://www.tinyurl.com/BK-XT85/Teaching/slides_graphics_and_data_handling.html) 
+
+Lab         [Lab pdf](https://git.embl.de/klaus/graphics_and_data_handling/blob/master/graphics_and_data_handling.pdf)                     
+
+R script    [R--script](https://git.embl.de/klaus/graphics_and_data_handling/blob/master/graphics_and_data_handling.R) 
+
+Rmd         [.Rmd file](https://git.embl.de/klaus/graphics_and_data_handling/blob/master/graphics_and_data_handling.Rmd)    
+--------------------------------------------------------------------------------                                
 
 ## Data handling with R
 
@@ -231,7 +278,7 @@ Rnw         [.Rnw file](http://www.tinyurl.com/BK-XT85/Teaching/Testing-lab.Rnw)
 
 This is a concise introduction to hypothesis testing, including only the most 
 widely used tests but also explaining the idea of permutation tests, since these
-can be very usfeul in pratctice.
+can be very useful in practice.
 
 The material also covers multiple testing
 as well as advanced topics such as regularized t-statistics, independent
@@ -240,7 +287,7 @@ filtering and empirical null estimation.
 
 ### Acknowledgements
 
-Ther permutation test explainations were inspired by [Tim Hesterberg's](http://www.timhesterberg.net/)
+The permutation test explanations were inspired by [Tim Hesterberg's](http://www.timhesterberg.net/)
 [excellent review on resampling](http://www.timhesterberg.net/bootstrap#TOC-What-Teachers-Should-Know-about-the-Bootstrap:-Resampling-in-the-Undergraduate-Statistics-Curriculum) for undergraduates.
 
 
@@ -346,9 +393,12 @@ R script    [R--script](http://www.tinyurl.com/BK-XT85/Teaching/ML-lab.R)
 Rmd         [.Rmd file](http://www.tinyurl.com/BK-XT85/Teaching/ML-lab.Rmd)    
 ------------------------------------------------------------------------------------
 
+## Analysis of a high throughput microscopy data set
+
+This material discusses the analysis of a high content screening data 
+set. It has been prepared for the EMBO course [High--Throughput Microscopy for Systems Biology](https://www.embl.de/training/events/2016/HTP16-01/index.html) in October
+2016.
+
+You can find its git repository  [here](https://git.embl.de/klaus/htm_course_2016).
 
 
-
-<!--
-ffff
--->

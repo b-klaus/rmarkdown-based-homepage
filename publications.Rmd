@@ -28,6 +28,10 @@ output:
 
 ###  2016 ---
 
+<!--
+- **miR-16 and miR-125b are involved in barrier function dysregulation through the modulation of claudin-2 and cingulin expression in the jejunum in irritable bowel syndrome with diarrhoea** --- Cristina Martínez*, Bruno K. Rodiño-Janeiro*, Beatriz Lobo, Megan L. Stanifer, Bernd Klaus, Martin Granzow, Carmen Alonso-Cotoner, Marc Pigrau, Ralph Roeth
+-->
+
 -  **Statistical relevance—relevant statistics, part II**
 --- **Bernd Klaus**, 2016 --- [EMBO J](http://dx.doi.org/10.15252/embj.201694659) 
 
@@ -99,7 +103,20 @@ their connection to the [Stieltjes](http://en.wikipedia.org/wiki/Thomas_Joannes_
 
 
 ## Software
-    
+
+### Chromium
+
+Chromium is a work--in--progress R package for the comprehensive analysis of Hi--C
+data developed by [Annika Gable](https://www.imls.uzh.ch/en/research/vonmering/people/annika-gable.html), [Aleksandra Pekowska](http://casellaslab.github.io/People/) and myself. You can find it [on github](https://github.com/AnnikaGable/chromium).
+
+### DChIPRep
+
+The  [DChIPRep](http://bioconductor.org/packages/DChIPRep/) DChIPRep 
+implements a methodology to assess differences between chromatin modification profiles in replicated ChIP-Seq studies as described in [Chabbert et. al.](http://www.dx.doi.org/10.15252/msb.20145776) and is available from
+[Bioconductor](http://bioconductor.org/packages/DChIPRep/).
+
+### PhD Thesis
+
 * Script files related to my PhD thesis can be downloaded [here](http://www-huber.embl.de/users/klaus/software/PhD-BK-Soft.zip).
 
 * Script files implementing the effect sizes variable selection methods presented in 
@@ -107,11 +124,6 @@ the article "Effect Size Estimation and Misclassification Rate Based Variable
 Selection in Linear Discriminant Analysis" can be downloaded  [here](http://www-huber.embl.de/users/klaus/software/LDA-Effect.zip).
 
 
-### DChIPRep
-
-The  [DChIPRep](http://bioconductor.org/packages/DChIPRep/) DChIPRep 
-implements a methodology to assess differences between chromatin modification profiles in replicated ChIP-Seq studies as described in [Chabbert et. al.](http://www.dx.doi.org/10.15252/msb.20145776) and is available from
-[Bioconductor](http://bioconductor.org/packages/DChIPRep/).
 
 ### ConcaveFDR
 
@@ -131,6 +143,8 @@ You can install it via
 ```
 
 in the terminal.
+
+
 
 #### Simulation Studies and a re-analysis of exon usage conservation
 

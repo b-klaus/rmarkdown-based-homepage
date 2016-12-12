@@ -29,11 +29,10 @@ at the European Molecular Biology Laboratory, Heidelberg, working in [Wolfgang H
 
 I am a mathematician by training and obtained a PhD in statistics
 (multiple testing methods, with [K. Strimmer](http://strimmerlab.org/)) in 2013. 
-During my PhD I also taught statistics and R programming to undergraduates 
-and participated in statistical consulting.
 Since 2013, I work at the EMBL centre for statistical data analysis 
 that helps EMBL scientists to use adequate statistical methods for their 
-specific technological or biological research questions. 
+specific technological or biological research questions and run various
+courses. Teaching material from course can be found [here](teaching.html). 
 My research is broadly related to the statistical analysis of 
 high-throughput sequencing data (RNA-Seq, ChIP-Seq, 4C/HiC, DNA-Seq etc.)
 
