@@ -26,11 +26,12 @@ output:
 
 ## Publications
 
-###  2016 ---
+### 2017
 
-<!--
-- **miR-16 and miR-125b are involved in barrier function dysregulation through the modulation of claudin-2 and cingulin expression in the jejunum in irritable bowel syndrome with diarrhoea** --- Cristina Martínez*, Bruno K. Rodiño-Janeiro*, Beatriz Lobo, Megan L. Stanifer, Bernd Klaus, Martin Granzow, Carmen Alonso-Cotoner, Marc Pigrau, Ralph Roeth
--->
+- **miR-16 and miR-125b are involved in barrier function dysregulation through the modulation of claudin-2 and cingulin expression in the jejunum in IBS with diarrhoea.** --- Martínez, Cristina; Rodiño-Janeiro, Bruno K; Lobo, Beatriz; Stanifer, Megan L; **Klaus, Bernd**; Granzow, Martin; González-Castro, Ana M; Salvo-Romero, Eloisa; Alonso-Cotoner, Carmen; Pigrau, Marc; Roeth, Ralph; Rappold, Gudrun; Huber, Wolfgang; González-Silos, Rosa; Lorenzo, Justo; de Torres, Inés; Azpiroz, Fernando; Boulant, Steeve; Vicario, María; Niesler, Beate; Santos, Javier  --- [Gut](http://dx.doi.org/10.1136/gutjnl-2016-311477) 
+
+###  2016 
+
 
 -  **Statistical relevance—relevant statistics, part II**
 --- **Bernd Klaus**, 2016 --- [EMBO J](http://dx.doi.org/10.15252/embj.201694659) 
@@ -40,7 +41,7 @@ output:
 - **Data-driven hypothesis weighting increases detection power in genome-scale multiple testing**  --- Nikolaos Ignatiadis, **Bernd Klaus**, Judith Zaugg, Wolfgang Huber, 2016 --- [Nature Methods](http://dx.doi.org/10.1038/nmeth.3885) --- earlier [BioRxiv Preprint](http://dx.doi.org/10.1101/034330) --- Software package [IHW on Github](https://github.com/nignatiadis/IHW) and [Bioconductor](http://bioconductor.org/packages/IHW).
 
 
-- **DChIPRep, an R/Bioconductor package for differential enrichment analysis in chromatin studies**  --- Christophe D Chabbert, Lars M Steinmetz, **Bernd Klaus**, 2016  --- [PeerJ](https://peerj.com/articles/1981/) --- Software package [DChIPRep on Bioconductor](http://bioconductor.org/packages/DChIPRep).
+- **DChIPRep, an R/Bioconductor package for differential enrichment analysis in chromatin studies**  --- Christophe D Chabbert, Lars M Steinmetz, **Bernd Klaus**, 2016  --- [PeerJ](https://peerj.com/articles/1981/) --- Software package [DChIPRep on Bioconductor](http://bioconductor.org/packages/DChIPRep). --- [Omic Tools website](https://omictools.com/dchiprep-tool) 
 
 
 -  **Landscape and dynamics of transcription initiation in the malaria parasite Plasmodium falciparum**
