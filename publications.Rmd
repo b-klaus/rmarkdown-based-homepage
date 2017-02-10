@@ -154,7 +154,7 @@ can obtained via github: <https://github.com/b-klaus/data_analysis_exon_usage>
 
   * Simulation Study with  normal mixture models: [Rmd](https://github.com/b-klaus/data_analysis_exon_usage/tree/master/Sims/SimsZvals.Rmd)
   
-  * Simulation Study with  the half normal decay model: [Rmd](https://github.com/b-klaus/data_analysis_exon_usage/tree/master/Sims/SimsHND-Model.Rmd), 
+  * Simulation Study with  the half normal decay model: [Rmd](https://github.com/b-klaus/data_analysis_exon_usage/tree/master/Sims/SimsHND-Model.Rmd)
     
   * Exon Usage Analysis: [Rmd](https://github.com/b-klaus/data_analysis_exon_usage/tree/master/AnalysisAlejandro.Rmd)
 
