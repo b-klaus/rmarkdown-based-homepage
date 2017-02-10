@@ -129,35 +129,32 @@ Selection in Linear Discriminant Analysis" can be downloaded  [here](http://www-
 
 
 
-### ConcaveFDR
+### concaveFDR
 
-ConcaveFDR is a an FDR estimation package, similar in spirit to [fdrtool](http://strimmerlab.org/software/fdrtool/index.html)
+concaveFDR is a an FDR estimation package, similar in spirit to [fdrtool](http://strimmerlab.org/software/fdrtool/index.html)
 and [locfdr](http://cran.r-project.org/package=locfdr). It will be submitted to Bioconductor at some point and extensive 
 documentation will be become available.
 
-- The R package (alpha status!) [ConcaveFDR](http://www-huber.embl.de/users/klaus/ConcaveFDR_0.0.1.tar.gz) 
-can be downloaded by clicking on the link. 
+- The R package (beta status!) via github like so:
 
-You can download some introductory [slides from MAS Toulouse 2014](http://www-huber.embl.de/users/klaus/270814-tolouse-MAS-FDR-Testing-klaus.pdf). Most of the  methodology is also treated in my [PhD thesis](http://nbn-resolving.de/urn:nbn:de:bsz:15-qucosa-102676).
-
-You can install it via   
-  
 ```{r , eval=FALSE}
-  R CMD INSTALL ConcaveFDR_0.0.1.tar.gz 
+devtools::install_github("b-klaus/concaveFDR")
 ```
 
-in the terminal.
+
+You can download some introductory [slides from MAS Toulouse 2014](http://www-huber.embl.de/users/klaus/270814-tolouse-MAS-FDR-Testing-klaus.pdf). Most of the  methodology is also treated in my [PhD thesis](http://nbn-resolving.de/urn:nbn:de:bsz:15-qucosa-102676).
 
 
 
 #### Simulation Studies and a re-analysis of exon usage conservation
 
 There are two simulation studies and one real data analysis of exon usage conservation.
-For the background on the exon usage analysis see the original paper: [Reyes et. al. --- Drift and conservation of differential exon usage across tissues in primate species](http://dx.doi.org/10.1073/pnas.1307202110)
+For the background on the exon usage analysis see the original paper: [Reyes et. al. --- Drift and conservation of differential exon usage across tissues in primate species](http://dx.doi.org/10.1073/pnas.1307202110). All of the files
+can obtained via github: <https://github.com/b-klaus/data_analysis_exon_usage>
 
-  * Simulation Study with  normal mixture models: [Rmd](http://www-huber.embl.de/users/klaus/SimsZvals.Rmd), [html](http://www-huber.embl.de/users/klaus/SimsZvals.html)
+  * Simulation Study with  normal mixture models: [Rmd](https://github.com/b-klaus/data_analysis_exon_usage/tree/master/Sims/SimsZvals.Rmd)
   
-  * Simulation Study with  the half normal decay model: [Rmd](http://www-huber.embl.de/users/klaus/SimsHND-Model.Rmd), [html](http://www-huber.embl.de/users/klaus/SimsHND-Model.html)
+  * Simulation Study with  the half normal decay model: [Rmd](https://github.com/b-klaus/data_analysis_exon_usage/tree/master/Sims/SimsHND-Model.Rmd), 
     
-  * Exon Usage Analysis: [Rmd](http://www-huber.embl.de/users/klaus/AnalysisAlejandro.Rmd), [html](http://www-huber.embl.de/users/klaus/AnalysisAlejandro.html)
+  * Exon Usage Analysis: [Rmd](https://github.com/b-klaus/data_analysis_exon_usage/tree/master/AnalysisAlejandro.Rmd)
 
