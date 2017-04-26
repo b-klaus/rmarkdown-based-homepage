@@ -399,6 +399,6 @@ This material discusses the analysis of a high content screening data
 set. It has been prepared for the EMBO course [High--Throughput Microscopy for Systems Biology](https://www.embl.de/training/events/2016/HTP16-01/index.html) in October
 2016.
 
-You can find its git repository  [here](https://git.embl.de/klaus/htm_course_2016).
+You can find its git repository  [here](https://github.com/b-klaus/htm_course_2016).
 
 
