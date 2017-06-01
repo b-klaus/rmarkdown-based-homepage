@@ -28,7 +28,9 @@ output:
 
 ### 2017
 
-- **Functional Outcomes and Quality of Life After Radical Prostatectomy Only Versus a Combination of Prostatectomy with Radiation and Hormonal Therapy.** -- Adam M, Tennstedt P, Lanwehr D, Tilki D, Steuber T, Beyer B, Thederan I, Heinzer H, Haese A, Salomon G, Budäus L, Michl U, Pehrke D, Stattin P, Bernard J, **Klaus B**, Pompe RS, Petersen C, Huland H, Graefen M, Schwarz R, Huber W, Loeb S, Schlomm T. (2017)
+- **Metabolic shifts in residual breast cancer drive tumor recurrence** --- Havas, Kristina M; Milchevskaya, Vladislava; Radic, Ksenija; Alladin, Ashna; Kafkia, Eleni; Garcia, Marta; Stolte, Jens; **Klaus, Bernd**; Rotmensz, Nicole; Gibson, Toby J; Burwinkel, Barbara; Schneeweiss, Andreas; Pruneri, Giancarlo; Patil, Kiran R; Sotillo, Rocio; Jechlinger, Martin (2017) --- [The Journal of Clinical Investigation, 15 May 2017 ](https://doi.org/10.1172/JCI89914) --- [EMBL newspiece](https://news.embl.de/science/1705-cell-changes-drive-breast-cancer-relapse/) --- [Video Interview](https://youtu.be/nGNvYjYQaaQ)
+
+- **Functional Outcomes and Quality of Life After Radical Prostatectomy Only Versus a Combination of Prostatectomy with Radiation and Hormonal Therapy.** -- Adam M, Tennstedt P, Lanwehr D, Tilki D, Steuber T, Beyer B, Thederan I, Heinzer H, Haese A, Salomon G, Budäus L, Michl U, Pehrke D, Stattin P, Bernard J, **Klaus B**, Pompe RS, Petersen C, Huland H, Graefen M, Schwarz R, Huber W, Loeb S, Schlomm T. (2017) ---
 [Eur. Urol. 71(3):330-336](http://dx.doi.org/10.1136/gutjnl-2016-311477) 
 
 - **miR-16 and miR-125b are involved in barrier function dysregulation through the modulation of claudin-2 and cingulin expression in the jejunum in IBS with diarrhoea.** --- Martínez C, Rodiño-Janeiro BK, Lobo B, Stanifer ML, **Klaus B**, Granzow M, González-Castro AM, Salvo-Romero E, Alonso-Cotoner C, Pigrau M, Roeth R, Rappold G, Huber W, González-Silos R, Lorenzo J, de Torres I, Azpiroz F, Boulant S, Vicario M, Niesler B, Santos J. (2017)  --- [Gut](http://dx.doi.org/10.1136/gutjnl-2016-311477) 
