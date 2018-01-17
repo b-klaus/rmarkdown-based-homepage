@@ -45,7 +45,8 @@ You can find me on [twitter](https://twitter.com/BKlausStats),
 
 ## CSDA --- Statistical Consulting and Courses
 Please visit the [CSDA homepage](https://bio-it.embl.de/csda) at the Bio-IT portal for information on the CSDA, 
-and the statistical consulting service and the courses offered. (internal access only). 
+and the statistical consulting service and the courses offered. (mostly 
+internal access only). 
 
 ## Contact
  
@@ -68,7 +69,6 @@ document.write(a + c + "" + b + d + "</a>");
 Telephone : +49 6221 / 387  8140
 
 [Official EMBL Homepage](http://www.embl.de/research/units/genome_biology/huber/members/index.php?s_personId=CP-60016853)
-
 <br>
 
 

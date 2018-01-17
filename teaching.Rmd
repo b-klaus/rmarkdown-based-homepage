@@ -9,47 +9,21 @@ output:
 ---
 
 
-<!--
-To compile run:
-library(rmarkdown); render("teaching.Rmd")
-To extract the R-code:
-library(knitr); knitr::purl("teaching.Rmd")
-
-HTS_introduction.pdf
-DESeq2.pdf 
--->
-
-
-
-
-```{r config, results='hide', include=FALSE}
-path <- "http://www-huber.embl.de/users/klaus/EMBO.R"
-
-```
-
 ## Overview 
     
-This webpage contains teaching materials I have been using for courses. Each
-topic is suitable for 3~6 hrs of an intensive course. The labs consist of
-.Rnw or .Rmd files which require the installation of several packages. The necessary
-packages for most of them can be  conveniently installed running the following script within R:
+This webpage contains teaching materials I have been designing for various courses.
+The labs consist of .Rnw or .Rmd files which require the installation of 
+several packages. 
 
-```{r , eval=FALSE}
-## script location
-script <- "http://www-huber.embl.de/users/klaus/EMBO.R"
-## installation 
-source(script)
-```
+The necessary packages are also indicated at the beginning of each lab or 
+there is an R script--file contained in the git repo that will install the
+necessary packages.
 
-However, the necessary packages are also indicated at the beginning of each lab.
-The acknowledgments contain some references to the material used, which 
-often represent links to additional documents suitable 
-for further in-depth study of the topic.
 
 Most of the labs have been built using
 [knitr](http://yihui.name/knitr/) 
 and [BiocStyle](http://bioconductor.org/packages/release/bioc/html/BiocStyle.html)
-in connection with Sweave-like .Rnw documents.
+in connection with .Rmd documents.
 
 
 ## Licencing -- MIT licence
@@ -59,25 +33,78 @@ which you can find [here](https://raw.githubusercontent.com/b-klaus/TeachingMate
 It basically means, you can do anything you like with the software and the associated
 materials.
 
+
+# Current material
+
 ## Introduction to R using the tidyverse
 
 This lab gives an introduction to R using many packages from the [tidyverse](http://tidyverse.org/).
-You can find its git repository [here](https://git.embl.de/klaus/tidyverse_R_intro).
 
-### Files
+
+Check out the git repository here: 
+<https://git.embl.de/klaus/tidyverse_R_intro>
+
+The links below link to html pages of the lab, the repo contains the 
+full material.
 
 --------------------------------------------------------------------------------  
-Type                Link 
-------      ------------------
-Slides      [Slides](http://www.tinyurl.com/BK-XT85/Teaching/Slides_tidyverse_R_intro.html) 
+Content                              Link 
+------------------             -----------------------
+Data handling lab               [tidyverse_R_intro ](http://www.tinyurl.com/BK-XT85/tidyverse_R_intro/R-lab.html) 
 
-Lab         [Lab pdf](https://git.embl.de/klaus/tidyverse_R_intro/raw/master/R-lab.pdf)                     
+--------------------------------------------------------------------------------                      
 
-R script    [R--script](https://git.embl.de/klaus/tidyverse_R_intro/raw/master/R-lab.R) 
+                 
+## Graphics and data handling with R using the tidyverse
 
-Rmd         [.Rmd file](https://git.embl.de/klaus/tidyverse_R_intro/raw/master/R-lab.Rmd)    
---------------------------------------------------------------------------------                                
+This labs introduces essential data handling techniques and graphics in R.
 
+Check out the git repository here: 
+<https://git.embl.de/klaus/graphics_and_data_handling>
+
+
+The links below link to html page of the lab, the repo contains the 
+full material.
+
+--------------------------------------------------------------------------------  
+Content                                     Link 
+-------                ------------------------------------
+Data handling lab       [graphics and data handling handling lab ](http://www.tinyurl.com/BK-XT85/graphics_and_data_handling/graphics_and_data_handling.html) 
+
+--------------------------------------------------------------------------------                      
+
+## Statistical methods in bioinformatics
+
+These labs introduces various statistical methods used in bioinformatics.
+They are applied mostly to bulk-- and single cell RNA--Seq data. Check out
+the git repository here:
+<https://git.embl.de/klaus/stat_methods_bioinf>
+
+The links below link to html pages of the labs, the repo contains the 
+full material.
+
+--------------------------------------------------------------------------------  
+Content                                                         Link 
+------------------                                  -------------------------------
+Data handling lab                                       [Data handling lab](http://www.tinyurl.com/BK-XT85/stat_methods_bioinf/data_handling_bioinf.html) 
+
+Graphics for bioinformatics                              [Graphics for bioinformatics lab](http://www.tinyurl.com/BK-XT85/stat_methods_bioinf/graphics_bioinf.html) 
+
+Factor analysis, multiple testing, machine Learning    [Factor analysis, testing and Machine Learning lab ](http://www.tinyurl.com/BK-XT85/stat_methods_bioinf/factor_ana_testing_ml.html)
+--------------------------------------------------------------------------------               
+
+## Analysis of a high throughput microscopy data set
+
+This material discusses the analysis of a high content screening data 
+set. It has been prepared for the EMBO course [High--Throughput Microscopy for Systems Biology](https://www.embl.de/training/events/2016/HTP16-01/index.html) in October
+2016.
+
+You can find its git repository  [here](https://github.com/b-klaus/htm_course_2016).
+
+
+# Oldies but goldies
+
+__Material that is not updated anymore, but might still be of interest.__
 
 ## Introduction to R
 
@@ -114,24 +141,7 @@ R script    [R--script](http://www.tinyurl.com/BK-XT85/Teaching/R-lab.R)
 Rnw         [.Rnw file](http://www.tinyurl.com/BK-XT85/Teaching/R-lab.Rnw)    
 --------------------------------------------------------------------------------                                                                               
 
-## Data handling and graphics with R using the tidyverse
 
-This labs introduces essential data handling techniques and graphics in R.
-You can find its git repository [here](https://git.embl.de/klaus/graphics_and_data_handling).
-
-### Files
-
---------------------------------------------------------------------------------  
-Type                Link 
-------      ------------------
-Slides      [Slides](http://www.tinyurl.com/BK-XT85/Teaching/slides_graphics_and_data_handling.html) 
-
-Lab         [Lab pdf](https://git.embl.de/klaus/graphics_and_data_handling/blob/master/graphics_and_data_handling.pdf)                     
-
-R script    [R--script](https://git.embl.de/klaus/graphics_and_data_handling/blob/master/graphics_and_data_handling.R) 
-
-Rmd         [.Rmd file](https://git.embl.de/klaus/graphics_and_data_handling/blob/master/graphics_and_data_handling.Rmd)    
---------------------------------------------------------------------------------                                
 
 ## Data handling with R
 
@@ -393,12 +403,5 @@ R script    [R--script](http://www.tinyurl.com/BK-XT85/Teaching/ML-lab.R)
 Rmd         [.Rmd file](http://www.tinyurl.com/BK-XT85/Teaching/ML-lab.Rmd)    
 ------------------------------------------------------------------------------------
 
-## Analysis of a high throughput microscopy data set
-
-This material discusses the analysis of a high content screening data 
-set. It has been prepared for the EMBO course [High--Throughput Microscopy for Systems Biology](https://www.embl.de/training/events/2016/HTP16-01/index.html) in October
-2016.
-
-You can find its git repository  [here](https://git.embl.de/klaus/htm_course_2016).
 
 

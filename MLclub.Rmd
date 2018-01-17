@@ -25,7 +25,9 @@ library(knitr); knitr::purl("MLclub.Rmd")
 
 </p>
 
-    
+_This was run in 2014 - 2016, The material remains here for reference_    
+
+-------------------------------
     
 In this book club we  go beyond the classical statistical methods for modelling, 
 such as linear regression.
