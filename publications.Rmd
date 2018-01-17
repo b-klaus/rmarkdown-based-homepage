@@ -28,7 +28,7 @@ output:
 
 ### 2017
 
-- **Landscape of nuclear transport receptor cargo specificity.** Mackmull MT, Klaus B, Heinze I, Chokkalingam M, Beyer A, Russell RB, Ori A, Beck M.  [Mol Syst Biol. 2017 Dec;13(12) 962. doi:10.15252/msb.20177608 ](http://dx.doi.org/10.15252/msb.20177608)
+- **Landscape of nuclear transport receptor cargo specificity.** Mackmull MT, **Klaus B**, Heinze I, Chokkalingam M, Beyer A, Russell RB, Ori A, Beck M.  [Mol Syst Biol. 2017 Dec;13(12) 962. doi:10.15252/msb.20177608 ](http://dx.doi.org/10.15252/msb.20177608)
 
 - **voomDDA: discovery of diagnostic biomarkers and classification of RNA-seq data**
 Zararsiz G, Goksuluk D, **Klaus B**, Korkmaz S, Eldem V, Karabulut E, Ozturk A. (2017)
