@@ -39,7 +39,7 @@ high-throughput sequencing data (RNA-Seq, ChIP-Seq, 4C/HiC, DNA-Seq etc.)
 ## Social Media
 
 You can find me on [twitter](https://twitter.com/BKlausStats), 
-[GitHub](https://github.com/b-klaus) and
+[GitHub](https://github.com/b-klaus), [ResearchGate](https://www.researchgate.net/profile/Bernd_Klaus) and
 [Google Scholar](https://scholar.google.de/citations?user=WtUa5YgAAAAJ&hl=de).
 
 

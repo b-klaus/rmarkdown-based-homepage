@@ -1,5 +1,5 @@
 ---
-title: "Bernd Klaus - Publications and Software"
+title: "Bernd Klaus - Talks, Publications and Software"
 output:
   html_document:
     toc: true
@@ -22,9 +22,22 @@ output:
 <br>
 -->
 
+## Talks and Notes 
 
+Here I gather various notes and talks that might be of interest.
+
+
+* Tools for single cell RNA-Seq --- slides (June 2018): <http://b-klaus.de/slides_sc.pdf>
+* Tools for single cell RNA-Seq (June 2018): <http://b-klaus.de/sc_tools.html>
+* MDS vs t--SNE (October 2017): <http://b-klaus.de/Multi_Dimensional_Scaling_vs_t_SNE.pdf>
 
 ## Publications
+
+### 2018
+
+
+- **An end to end workflow for differential gene expression using Affymetrix microarrays**  --- **Bernd Klaus** and **Stefanie Reisenauer** --- version 2 , 2018 --- [F1000Research 2018, 5:1384](http://dx.doi.org/10.12688/f1000research.8967.2)
+
 
 ### 2017
 
@@ -47,7 +60,7 @@ Zararsiz G, Goksuluk D, **Klaus B**, Korkmaz S, Eldem V, Karabulut E, Ozturk A. 
 -  **Statistical relevance—relevant statistics, part II**
 --- **Bernd Klaus**, 2016 --- [EMBO J](http://dx.doi.org/10.15252/embj.201694659) 
 
-- **An end to end workflow for differential gene expression using Affymetrix microarrays**  --- **Bernd Klaus** , 2016 --- [F1000Research 2016, 5:1384](http://dx.doi.org/10.12688/f1000research.8967.1) 
+- **An end to end workflow for differential gene expression using Affymetrix microarrays**  --- **Bernd Klaus** --- version 1 , 2016 --- [F1000Research 2016, 5:1384](http://dx.doi.org/10.12688/f1000research.8967.1) 
 
 - **Data-driven hypothesis weighting increases detection power in genome-scale multiple testing**  --- Nikolaos Ignatiadis, **Bernd Klaus**, Judith Zaugg, Wolfgang Huber, 2016 --- [Nature Methods](http://dx.doi.org/10.1038/nmeth.3885) --- earlier [BioRxiv Preprint](http://dx.doi.org/10.1101/034330) --- Software package [IHW on Github](https://github.com/nignatiadis/IHW) and [Bioconductor](http://bioconductor.org/packages/IHW).
 
