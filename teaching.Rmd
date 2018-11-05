@@ -102,6 +102,32 @@ set. It has been prepared for the EMBO course [High--Throughput Microscopy for S
 You can find its git repository  [here](https://github.com/b-klaus/htm_course_2016).
 
 
+
+## A simple intro to Machine Learning based on a screening data set
+
+This introduces Machine Learning (knn based classification) using
+a simple high-content screening data set.
+
+You can find its git repository  [here](https://github.com/b-klaus/knn_ml_intro).
+
+It was created for a Machine Learning course at with Prof. Bernd Bischl
+& colleagues at EMBL in June 2018.
+
+
+## Statistical Analysis of proteomics data
+
+This was created together with Frank Stein: using a TMT data
+set, we explore (QC) the quantified proteomics data and then
+analyze differential abundance in the normalized data using
+linear models.
+
+The nice overview figure was create by Isabelle Becher.
+
+You can find its git repository  [here](https://github.com/b-klaus/proteomics_2018).
+
+This was created for an [EMBO quantitative proteomics course](https://www.embl.de/training/events/2018/QPR18-01/index.html)
+in 2018.
+
 # Oldies but goldies
 
 __Material that is not updated anymore, but might still be of interest.__
