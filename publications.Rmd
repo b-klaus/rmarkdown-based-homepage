@@ -35,6 +35,8 @@ Here I gather various notes and talks that might be of interest.
 
 ### 2018
 
+- **Gain of CTCF-Anchored Chromatin Loops Marks the Exit from Naive Pluripotency** --- Aleksandra Pękowska, **Bernd Klaus**, Wanqing Xiang, Jacqueline Severino, Nathalie Daigle, Felix A. Klein, Małgorzata Oleś, Rafael Casellas, Jan Ellenberg, Lars M. Steinmetz, Paul Bertone, Wolfgang Huber --- [Cell Syst](http://dx.doi.org/10.1016/j.cels.2018.09.003)
+
 - **Machine Learning Predicts the Yeast Metabolome from the Quantitative Proteome of Kinase Knockouts** --- Zelezniak A, Vowinckel J, Capuano F, Messner CB, Demichev V, Polowsky N, Mülleder M, Kamrad S, **Klaus B**, Keller MA, Ralser M. --- [Cell Syst 7(3)](http://dx.doi.org/10.1016/j.cels.2018.08.001)
 
 - **An end to end workflow for differential gene expression using Affymetrix microarrays**  --- **Bernd Klaus** and **Stefanie Reisenauer** --- version 2 , 2018 --- [F1000Research 2018, 5:1384](http://dx.doi.org/10.12688/f1000research.8967.2)
